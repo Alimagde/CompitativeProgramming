@@ -1,5 +1,5 @@
 /*
- find all reachable point for both colors, a point is belong to a color if it unreachable form the other color
+ find all reachable points for both colors, a point is belong to a color if it unreachable from the other color
  */
 
 #include <bits/stdc++.h>
