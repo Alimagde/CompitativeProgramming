@@ -1,8 +1,13 @@
 /*
-    using treap to rearrange the soldiers
+    for every soldier there is an implicit treap donating the right order for the soldiers infront of him and the soldier
+    know how many soldiers he will pass so simply:
+    1 - split the treap into two treaps one with the soldiers that will be passed (R) , and the other with the rest of the soldiers (L)
+    2 - make a treap contain the current soldier (S).
+    3 - merge L with S.
+    4 - merge LS with R.
  */
 #include <bits/stdc++.h>
-
+make a treap with the soldier
 using namespace std;
 
 typedef struct node {
